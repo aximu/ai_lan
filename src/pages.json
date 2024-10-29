@@ -1,0 +1,55 @@
+{
+    "pages": [
+      {
+        "path": "pages/index/index",
+        "style": {
+          "navigationBarTitleText": "Language Learning App"
+        }
+      },
+      {
+        "path": "pages/practice/practice",
+        "style": {
+          "navigationBarTitleText": "Practice"
+        }
+      },
+      {
+        "path": "pages/profile/profile",
+        "style": {
+          "navigationBarTitleText": "Profile"
+        }
+      }
+    ],
+    "globalStyle": {
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "Language Learning App",
+      "navigationBarBackgroundColor": "#F8F8F8",
+      "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+      "color": "#7A7E83",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "static/home.png",
+          "selectedIconPath": "static/home-active.png",
+          "text": "Home"
+        },
+        {
+          "pagePath": "pages/practice/practice",
+          "iconPath": "static/practice.png",
+          "selectedIconPath": "static/practice-active.png",
+          "text": "Practice"
+        },
+        {
+          "pagePath": "pages/profile/profile",
+          "iconPath": "static/profile.png",
+          "selectedIconPath": "static/profile-active.png",
+          "text": "Profile"
+        }
+      ]
+    }
+  }
+  
